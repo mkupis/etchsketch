@@ -1,0 +1,21 @@
+body {
+    justify-content: center;
+}
+
+.contstyle {
+    background-color: aquamarine;
+    width: 32rem;
+    height: 32rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: grid;
+    
+    grid-template-columns: repeat(16,2rem);
+    grid-template-rows: repeat(16, 2rem);
+    
+}
+
+.pix {
+    border:1px solid black;
+    
+}
